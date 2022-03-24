@@ -18,6 +18,9 @@
 		C70955F127EC0D1300D5A1DF /* submoduleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70955F027EC0D1300D5A1DF /* submoduleTestTests.m */; };
 		C70955FB27EC0D1300D5A1DF /* submoduleTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70955FA27EC0D1300D5A1DF /* submoduleTestUITests.m */; };
 		C70955FD27EC0D1300D5A1DF /* submoduleTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70955FC27EC0D1300D5A1DF /* submoduleTestUITestsLaunchTests.m */; };
+		C7C8E46727EC44C40066E703 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */; };
+		C7C8E46827EC44C40066E703 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C7C8E46B27EC44D20066E703 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,20 @@
 			remoteInfo = submoduleTest;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7C8E46927EC44C40066E703 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C7C8E46827EC44C40066E703 /* CocoaLumberjack.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		013877E9E7BB5D57B7D85876 /* Pods-submoduleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submoduleTest.release.xcconfig"; path = "Target Support Files/Pods-submoduleTest/Pods-submoduleTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +75,8 @@
 		C70955F627EC0D1300D5A1DF /* submoduleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = submoduleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70955FA27EC0D1300D5A1DF /* submoduleTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = submoduleTestUITests.m; sourceTree = "<group>"; };
 		C70955FC27EC0D1300D5A1DF /* submoduleTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = submoduleTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C8E46B27EC44D20066E703 /* libCocoaLumberjack.a in Frameworks */,
+				C7C8E46727EC44C40066E703 /* CocoaLumberjack.framework in Frameworks */,
 				B3E14F7756D4BBDFF57C2F97 /* libPods-submoduleTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +110,8 @@
 		85D3A697DD321E9D0A1B06F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */,
+				C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */,
 				A90E71EAC29FF1AD98D18E00 /* libPods-submoduleTest.a */,
 			);
 			name = Frameworks;
@@ -157,7 +180,6 @@
 				813869EC7F32EEF5DC5B7B54 /* Pods-submoduleTest.debug.xcconfig */,
 				013877E9E7BB5D57B7D85876 /* Pods-submoduleTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -173,12 +195,15 @@
 				C70955CE27EC0D0F00D5A1DF /* Frameworks */,
 				C70955CF27EC0D0F00D5A1DF /* Resources */,
 				755BCAE4B7564E004000EDAA /* [CP] Copy Pods Resources */,
+				C7C8E46927EC44C40066E703 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = submoduleTest;
+			packageProductDependencies = (
+			);
 			productName = submoduleTest;
 			productReference = C70955D127EC0D0F00D5A1DF /* submoduleTest.app */;
 			productType = "com.apple.product-type.application";
@@ -516,6 +541,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQ39Q9AF5U;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"$(BUILT_PRODUCTS_DIR)/include\"",
+				);
 				INFOPLIST_FILE = submoduleTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -544,6 +576,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQ39Q9AF5U;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"$(BUILT_PRODUCTS_DIR)/include\"",
+				);
 				INFOPLIST_FILE = submoduleTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../CocoaLumberjack/Lumberjack.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:submoduleTest.xcodeproj">
    </FileRef>
    <FileRef
