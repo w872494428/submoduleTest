@@ -14,6 +14,12 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
   - GVUserDefaults (1.0.2)
   - IQKeyboardManager (6.5.9)
   - JXCategoryView (1.5.9)
@@ -30,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - BGFMDB (~> 2.0.9)
   - GVUserDefaults (~> 1.0.2)
   - IQKeyboardManager
   - JXCategoryView
@@ -45,6 +52,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - BGFMDB
     - GVUserDefaults
     - IQKeyboardManager
     - JXCategoryView
@@ -59,6 +67,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
   JXCategoryView: 2ef9ecfd3735158d009ce02d1f29811aa822da65
@@ -71,6 +80,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TZImagePickerController: fb446ac06ae9c217bc849185646a68465bcd0dd4
 
-PODFILE CHECKSUM: cff0bf290284d3f4716283a4db02673e9be9668e
+PODFILE CHECKSUM: c5232025ab536cba4d8178e9e79b2db3685e998e
 
 COCOAPODS: 1.11.2

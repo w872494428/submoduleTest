@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<integer>1</integer>
+	<key>success</key>
+	<true/>
+	<key>message</key>
+	<string>成功</string>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>215</string>
+			<key>address</key>
+			<string> 0x58721a69c429e0da70aba6c98ee5a60eb26226cd</string>
+			<key>remark</key>
+			<string>嘻嘻哈</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>216</string>
+			<key>address</key>
+			<string>0x58721a69c429e0da70aba6c98e</string>
+			<key>remark</key>
+			<string>哦吼</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>217</string>
+			<key>address</key>
+			<string>0x58721a69c429e0da70aba6cddf8eer</string>
+			<key>remark</key>
+			<string>粉底棒</string>
+		</dict>
+	</array>
+</dict>
+</plist>

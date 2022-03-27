@@ -17,6 +17,7 @@ target 'submoduleTest' do
    pod 'MBProgressHUD', '~> 1.0.0'
    pod 'SVProgressHUD'
    pod 'ReactiveObjC' , :inhibit_warnings => true
+   pod 'BGFMDB', '~> 2.0.9'
    #pod 'UTDID','1.5.0.91'
    # use 3rd_package!
    pod 'TZImagePickerController'

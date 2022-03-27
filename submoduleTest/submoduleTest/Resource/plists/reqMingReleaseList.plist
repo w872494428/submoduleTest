@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<integer>1</integer>
+	<key>success</key>
+	<true/>
+	<key>message</key>
+	<string>成功</string>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>walletAddr</key>
+			<string>cb18cf8b0700804bf48b1e945deed66bb01edca</string>
+			<key>userGrade</key>
+			<integer>10</integer>
+			<key>releaseDate</key>
+			<string>2020-08-28</string>
+			<key>releaseCoinId</key>
+			<integer>3</integer>
+			<key>releaseCoinName</key>
+			<string>USDT</string>
+			<key>minerReleaseMoney</key>
+			<real>0.03</real>
+			<key>incomeCoinId</key>
+			<integer>1</integer>
+			<key>incomeMoney</key>
+			<real>1.5</real>
+			<key>minerIncomeMoney</key>
+			<real>1.8</real>
+		</dict>
+		<dict>
+			<key>walletAddr</key>
+			<string>a18cf8b0700804bf48b1e945deed66bb001edccc</string>
+			<key>userGrade</key>
+			<integer>39</integer>
+			<key>releaseDate</key>
+			<string>2020-08-28</string>
+			<key>releaseCoinId</key>
+			<integer>3</integer>
+			<key>releaseCoinName</key>
+			<string>USDT</string>
+			<key>minerReleaseMoney</key>
+			<real>0.03</real>
+			<key>incomeCoinId</key>
+			<integer>1</integer>
+			<key>incomeMoney</key>
+			<real>1.5</real>
+			<key>minerIncomeMoney</key>
+			<real>1.8</real>
+		</dict>
+	</array>
+</dict>
+</plist>
