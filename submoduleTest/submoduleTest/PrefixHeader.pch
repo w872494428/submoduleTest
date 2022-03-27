@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  submoduleTest
+//
+//  Created by linqipeng on 2022/3/24.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//这个宏定义的作用是保证只有OC文件可以调用pch里面的头文件，一些非OC语言不能调用
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CocoaLumberjack/CocoaLumberjack.h>
+#endif
+
+#import<CommonCrypto/CommonDigest.h>
+
+//踩坑把LOG_LEVEL_VERBOSE和LOG_LEVEL_WARN换成DDLogLevelVerbose和DDLogLevelError就好了。参考https://my.oschina.net/ioslighter/blog/381201
+#ifdef DEBUG
+    static const int ddLogLevel = DDLogLevelVerbose;
+#else
+    static const int ddLogLevel = DDLogLevelError;
+#endif
+
+
+#endif /* PrefixHeader_pch */
