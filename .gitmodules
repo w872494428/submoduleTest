@@ -1,3 +1,6 @@
 [submodule "CocoaLumberjack"]
 	path = CocoaLumberjack
 	url = https://git@github.com/CocoaLumberjack/CocoaLumberjack.git
+[submodule "Library"]
+	path = Package/SPIndicator
+	url = https://github.com/ivanvorobei/SPIndicator
