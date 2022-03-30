@@ -1,6 +1,3 @@
 [submodule "CocoaLumberjack"]
 	path = CocoaLumberjack
 	url = https://git@github.com/CocoaLumberjack/CocoaLumberjack.git
-[submodule "submoduleTest/Package"]
-	path = submoduleTest/Package
-	url = https://github.com/ivanvorobei/SPIndicator
