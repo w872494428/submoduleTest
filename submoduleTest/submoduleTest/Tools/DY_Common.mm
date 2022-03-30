@@ -1130,4 +1130,21 @@ static BOOL isPureFloat(NSString*string){
     }
     return 0;
 }
+
+// 拼接参数
++ (NSString *)getParams:(NSDictionary *)params {
+    NSArray *keyAray = [params allKeys];
+    NSMutableString *result = [NSMutableString string];
+    for (NSString *obj in keyAray) {
+        NSValue *value = [params objectForKey:obj];
+        [result appendString:[NSString stringWithFormat:@"&%@=%@",obj,value]];
+    }
+//    if (result && result.length > 0) {
+//        [result replaceCharactersInRange:NSMakeRange(0, 1) withString:@""];//去除http第一个参数的&符号
+//    }
+    //    result = [@"date=20151031&startRecord=1&len=5&udid=1234567890&terminalType=Iphone&cid=213" mutableCopy];
+    return result;
+}
+
+
 @end

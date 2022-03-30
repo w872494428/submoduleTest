@@ -6,10 +6,11 @@
 //
 
 #import "ViewController.h"
-
+#import "WkWebviewController.h"
 //#import <CocoaLumberjack/CocoaLumberjack.h>
 
 //@import CocoaLumberjack;
+//@import SPIndicator;
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *staticTextLab;
@@ -20,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self loadPlist];
+    
+    
+    
     [DDLog addLogger:[DDOSLogger sharedInstance]];
     
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
@@ -45,6 +50,15 @@
 
 - (IBAction)twoBtnAction:(UIButton *)sender {
     self.staticTextLab.text = @"你点击了 2222 按钮";
+    WkWebviewController *webVC=[[WkWebviewController alloc]init];
+    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"cpjs.html" withExtension:nil];
+    webVC.fileURL = fileURL;
+//    webVC.boolNaviBarHeight=YES;
+//    webVC.hidesBottomBarWhenPushed=YES;
+//    webVC.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:webVC animated:YES completion:^{
+            
+    }];
 }
 - (IBAction)threeBtnAction:(UIButton *)sender {
     self.staticTextLab.text = @"你点击了 3333 按钮";
@@ -92,9 +106,6 @@
 }
 
 
-
-
-
 - (NSString *)md5HexDigest:(NSString*)input {
     const char *cStr = [input UTF8String];
     unsigned char digest[CC_MD5_DIGEST_LENGTH * 2];
@@ -106,12 +117,29 @@
 }
 
 
+#pragma mark 读取plist文件的内容
+- (void)loadPlist
+{
+    //1.获得路径
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"About" withExtension:@"plist"];
+    
+    //2.获取数据
+    NSArray *_data = [NSArray arrayWithContentsOfURL:url];
+    NSLog(@"_data=%@",_data);
+    
+}
 
 - (void)performanceExample {
     NSInteger index = 0;
     for (NSInteger i =0 ; i < 10000000; ++i) {
         index++;
     }
+}
+
+
+
+- (void)dealloc {
+    NSLog(@"%s dealloc",object_getClassName(self));
 }
 
 @end

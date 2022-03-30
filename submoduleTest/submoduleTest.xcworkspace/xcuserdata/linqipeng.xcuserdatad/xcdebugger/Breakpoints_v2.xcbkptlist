@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "464B82A6-302B-46F6-BA3E-5C892489900D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "submoduleTestTests/submoduleTestTests.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "-testExample"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "5B47AE25-F9BE-4C2D-9697-B92FD3B72830"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -39,16 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "60322A2E-7526-4C3F-A6B0-922D388DFC67"
+            uuid = "1958C3A2-3607-4E2D-822A-2967E38C3491"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "submoduleTestTests/submoduleTestTests.m"
+            filePath = "submoduleTest/Modules/Home/Controller/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-tearDown"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-dealloc"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

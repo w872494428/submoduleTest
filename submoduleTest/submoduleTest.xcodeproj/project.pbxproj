@@ -91,6 +91,20 @@
 		C7C8E46827EC44C40066E703 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C7C8E46B27EC44D20066E703 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */; };
 		C7C8E46F27EC5B0F0066E703 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46E27EC5B0F0066E703 /* CocoaLumberjack.framework */; };
+		C7CE1E9927F4166400608C07 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E8D27F4166300608C07 /* about.html */; };
+		C7CE1E9A27F4166400608C07 /* lzn.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E8E27F4166300608C07 /* lzn.html */; };
+		C7CE1E9B27F4166400608C07 /* djx.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E8F27F4166300608C07 /* djx.html */; };
+		C7CE1E9C27F4166400608C07 /* ldn.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9027F4166300608C07 /* ldn.html */; };
+		C7CE1E9D27F4166400608C07 /* lzn+.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9127F4166300608C07 /* lzn+.html */; };
+		C7CE1E9E27F4166400608C07 /* bzfs.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9227F4166300608C07 /* bzfs.html */; };
+		C7CE1E9F27F4166400608C07 /* 关于.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9327F4166300608C07 /* 关于.rtf */; };
+		C7CE1EA027F4166400608C07 /* huishang.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9427F4166300608C07 /* huishang.html */; };
+		C7CE1EA127F4166400608C07 /* pk.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9527F4166300608C07 /* pk.html */; };
+		C7CE1EA227F4166400608C07 /* zk.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9627F4166300608C07 /* zk.html */; };
+		C7CE1EA327F4166400608C07 /* ldx+.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9727F4166400608C07 /* ldx+.html */; };
+		C7CE1EA427F4166400608C07 /* cpjs.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9827F4166400608C07 /* cpjs.html */; };
+		C7CE1EA627F428DD00608C07 /* zk的副本.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1EA527F428DD00608C07 /* zk的副本.html */; };
+		C7CE1EB527F42F3700608C07 /* WkWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1EB327F42F3700608C07 /* WkWebviewController.m */; };
 		F50654AFA5E8FC2638D8B26D /* libPods-submoduleTest-submoduleTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF339000EA01BF52D200F71 /* libPods-submoduleTest-submoduleTestUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -243,6 +257,21 @@
 		C7C8E46C27EC5B070066E703 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C8E46E27EC5B0F0066E703 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C8E47027EC5E750066E703 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C7CE1E8D27F4166300608C07 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		C7CE1E8E27F4166300608C07 /* lzn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lzn.html; sourceTree = "<group>"; };
+		C7CE1E8F27F4166300608C07 /* djx.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = djx.html; sourceTree = "<group>"; };
+		C7CE1E9027F4166300608C07 /* ldn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ldn.html; sourceTree = "<group>"; };
+		C7CE1E9127F4166300608C07 /* lzn+.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "lzn+.html"; sourceTree = "<group>"; };
+		C7CE1E9227F4166300608C07 /* bzfs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bzfs.html; sourceTree = "<group>"; };
+		C7CE1E9327F4166300608C07 /* 关于.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "关于.rtf"; sourceTree = "<group>"; };
+		C7CE1E9427F4166300608C07 /* huishang.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = huishang.html; sourceTree = "<group>"; };
+		C7CE1E9527F4166300608C07 /* pk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pk.html; sourceTree = "<group>"; };
+		C7CE1E9627F4166300608C07 /* zk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zk.html; sourceTree = "<group>"; };
+		C7CE1E9727F4166400608C07 /* ldx+.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ldx+.html"; sourceTree = "<group>"; };
+		C7CE1E9827F4166400608C07 /* cpjs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cpjs.html; sourceTree = "<group>"; };
+		C7CE1EA527F428DD00608C07 /* zk的副本.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zk的副本.html"; sourceTree = "<group>"; };
+		C7CE1EB327F42F3700608C07 /* WkWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkWebviewController.m; sourceTree = "<group>"; };
+		C7CE1EB427F42F3700608C07 /* WkWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkWebviewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -520,6 +549,19 @@
 		C772BC5527F0564B00B4A544 /* htmls */ = {
 			isa = PBXGroup;
 			children = (
+				C7CE1E9327F4166300608C07 /* 关于.rtf */,
+				C7CE1E8D27F4166300608C07 /* about.html */,
+				C7CE1E9227F4166300608C07 /* bzfs.html */,
+				C7CE1E9827F4166400608C07 /* cpjs.html */,
+				C7CE1E8F27F4166300608C07 /* djx.html */,
+				C7CE1E9427F4166300608C07 /* huishang.html */,
+				C7CE1E9027F4166300608C07 /* ldn.html */,
+				C7CE1E9727F4166400608C07 /* ldx+.html */,
+				C7CE1EA527F428DD00608C07 /* zk的副本.html */,
+				C7CE1E8E27F4166300608C07 /* lzn.html */,
+				C7CE1E9127F4166300608C07 /* lzn+.html */,
+				C7CE1E9527F4166300608C07 /* pk.html */,
+				C7CE1E9627F4166300608C07 /* zk.html */,
 			);
 			path = htmls;
 			sourceTree = "<group>";
@@ -571,6 +613,7 @@
 		C772BCAA27F05A8200B4A544 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				C7CE1EA727F42C0F00608C07 /* Other */,
 				C772BCAC27F05A8200B4A544 /* Enter */,
 				C772BCAD27F05A8200B4A544 /* Exit */,
 				C772BCAB27F05A8200B4A544 /* Home */,
@@ -665,6 +708,23 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		C7CE1EA727F42C0F00608C07 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE1EB227F42F3700608C07 /* WkWebview */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C7CE1EB227F42F3700608C07 /* WkWebview */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE1EB427F42F3700608C07 /* WkWebviewController.h */,
+				C7CE1EB327F42F3700608C07 /* WkWebviewController.m */,
+			);
+			path = WkWebview;
+			sourceTree = "<group>";
+		};
 		D2555D4B7170F8A03A85139C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -697,6 +757,8 @@
 			dependencies = (
 			);
 			name = submoduleTest;
+			packageProductDependencies = (
+			);
 			productName = submoduleTest;
 			productReference = C70955D127EC0D0F00D5A1DF /* submoduleTest.app */;
 			productType = "com.apple.product-type.application";
@@ -771,6 +833,8 @@
 				Base,
 			);
 			mainGroup = C70955C827EC0D0F00D5A1DF;
+			packageReferences = (
+			);
 			productRefGroup = C70955D227EC0D0F00D5A1DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -795,11 +859,14 @@
 				C772BC8427F0564B00B4A544 /* kj_header.png in Resources */,
 				C772BC7127F0564B00B4A544 /* 01.jpg in Resources */,
 				C772BC7027F0564B00B4A544 /* startImage1.png in Resources */,
+				C7CE1E9927F4166400608C07 /* about.html in Resources */,
 				C772BC6327F0564B00B4A544 /* image4.png in Resources */,
 				C772BC7C27F0564B00B4A544 /* new_feature_3@3x.png in Resources */,
 				C772BC7F27F0564B00B4A544 /* image_back_header.png in Resources */,
+				C7CE1E9C27F4166400608C07 /* ldn.html in Resources */,
 				C772BC8827F0564B00B4A544 /* entrustRecords.plist in Resources */,
 				C772BC8527F0564B00B4A544 /* addrListData.plist in Resources */,
+				C7CE1E9F27F4166400608C07 /* 关于.rtf in Resources */,
 				C772BC7A27F0564B00B4A544 /* new_feature_1@3x.png in Resources */,
 				C772BC8027F0564B00B4A544 /* image_back_theme.png in Resources */,
 				C772BC8E27F0564B00B4A544 /* HGBFuncionType.plist in Resources */,
@@ -807,12 +874,15 @@
 				C772BC6E27F0564B00B4A544 /* startImage2.png in Resources */,
 				C772BC7B27F0564B00B4A544 /* new_feature_1@2x.png in Resources */,
 				C772BC5E27F0564B00B4A544 /* user_photo_bg@2x.png in Resources */,
+				C7CE1EA327F4166400608C07 /* ldx+.html in Resources */,
 				C772BC8C27F0564B00B4A544 /* entrusthistoryRecords.plist in Resources */,
+				C7CE1E9D27F4166400608C07 /* lzn+.html in Resources */,
 				C772BC8227F0564B00B4A544 /* image_back_theme1.png in Resources */,
 				C70955E427EC0D1300D5A1DF /* LaunchScreen.storyboard in Resources */,
 				C772BC7D27F0564B00B4A544 /* image_back_theme1@2x.png in Resources */,
 				C70955E127EC0D1300D5A1DF /* Assets.xcassets in Resources */,
 				C772BC5D27F0564B00B4A544 /* leftmenu_add_nor@2x.png in Resources */,
+				C7CE1E9E27F4166400608C07 /* bzfs.html in Resources */,
 				C772BC6827F0564B00B4A544 /* user_picture@2x.png in Resources */,
 				C70955DF27EC0D0F00D5A1DF /* Main.storyboard in Resources */,
 				C772BC6227F0564B00B4A544 /* image6.png in Resources */,
@@ -825,9 +895,11 @@
 				C772BC6B27F0564B00B4A544 /* image3.png in Resources */,
 				C772BC5827F0564B00B4A544 /* opening_short_1080*1920.mp4 in Resources */,
 				C772BC7427F0564B00B4A544 /* 05.jpg in Resources */,
+				C7CE1EA027F4166400608C07 /* huishang.html in Resources */,
 				C772BC6C27F0564B00B4A544 /* linkapplogo.png in Resources */,
 				C772BC8927F0564B00B4A544 /* messageData.plist in Resources */,
 				C772BC7E27F0564B00B4A544 /* image_back_theme1@3x.png in Resources */,
+				C7CE1E9A27F4166400608C07 /* lzn.html in Resources */,
 				C772BC7827F0564B00B4A544 /* new_feature_2@3x.png in Resources */,
 				C772BC8A27F0564B00B4A544 /* minuteData.plist in Resources */,
 				C772BC6427F0564B00B4A544 /* leftmenu_topbg@3x.jpg in Resources */,
@@ -836,18 +908,23 @@
 				C772BC7527F0564B00B4A544 /* 04.jpg in Resources */,
 				C772BC7927F0564B00B4A544 /* new_feature_3@2x.png in Resources */,
 				C772BC7227F0564B00B4A544 /* 03.jpg in Resources */,
+				C7CE1EA627F428DD00608C07 /* zk的副本.html in Resources */,
 				C772BC6927F0564B00B4A544 /* leftmenu_topbg@2x.jpg in Resources */,
 				C772BC5727F0564B00B4A544 /* opening_long_1080*1920.mp4 in Resources */,
+				C7CE1E9B27F4166400608C07 /* djx.html in Resources */,
 				C772BC7627F0564B00B4A544 /* lamp.png in Resources */,
 				C772BC5C27F0564B00B4A544 /* leftmenu_add_press@3x.png in Resources */,
 				C772BC9027F0564B00B4A544 /* reqMingReleaseList.plist in Resources */,
 				C772BC8727F0564B00B4A544 /* fiveData.plist in Resources */,
+				C7CE1EA227F4166400608C07 /* zk.html in Resources */,
 				C772BC8627F0564B00B4A544 /* entrustAllRecords.plist in Resources */,
 				C772BC5627F0564B00B4A544 /* ETT.mp4 in Resources */,
 				C772BC5F27F0564B00B4A544 /* user_photo_bg@3x.png in Resources */,
 				C772BC5927F0564B00B4A544 /* movie.mp4 in Resources */,
 				C772BC7327F0564B00B4A544 /* 02.jpg in Resources */,
 				C772BC6F27F0564B00B4A544 /* startImage3.png in Resources */,
+				C7CE1EA127F4166400608C07 /* pk.html in Resources */,
+				C7CE1EA427F4166400608C07 /* cpjs.html in Resources */,
 				C772BC8D27F0564B00B4A544 /* klinedata.plist in Resources */,
 				C772BC8127F0564B00B4A544 /* icon_placeholder_line.png in Resources */,
 			);
@@ -984,6 +1061,7 @@
 				C70955DC27EC0D0F00D5A1DF /* ViewController.m in Sources */,
 				C772BCA127F0573300B4A544 /* GlobalConsts.m in Sources */,
 				C70955D627EC0D0F00D5A1DF /* AppDelegate.m in Sources */,
+				C7CE1EB527F42F3700608C07 /* WkWebviewController.m in Sources */,
 				C70955E727EC0D1300D5A1DF /* main.m in Sources */,
 				C772BCBC27F05CCB00B4A544 /* SAMKeychain.m in Sources */,
 				C772BCA527F057E700B4A544 /* SYSDevice.m in Sources */,
@@ -1180,6 +1258,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1217,6 +1296,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

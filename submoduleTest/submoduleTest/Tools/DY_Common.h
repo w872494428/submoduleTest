@@ -278,4 +278,7 @@
 +(NSArray *)randomArray:(NSArray *)arr;
 
 +(NSInteger)checkLimitConditionCurrentTime;
+
+// 拼接参数
++ (NSString *)getParams:(NSDictionary *)params;
 @end
