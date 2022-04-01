@@ -4,3 +4,9 @@
 [submodule "Library"]
 	path = Package/SPIndicator
 	url = https://github.com/ivanvorobei/SPIndicator
+[submodule "LibPackage"]
+	path = LibPackage/SPIndicator
+	url = https://github.com/ivanvorobei/SPIndicator
+[submodule "ComPackage"]
+	path = ComPackage/JLRoutes
+	url = https://github.com/joeldev/JLRoutes
