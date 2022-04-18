@@ -103,8 +103,9 @@
 		C7CE1EA227F4166400608C07 /* zk.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9627F4166300608C07 /* zk.html */; };
 		C7CE1EA327F4166400608C07 /* ldx+.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9727F4166400608C07 /* ldx+.html */; };
 		C7CE1EA427F4166400608C07 /* cpjs.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9827F4166400608C07 /* cpjs.html */; };
-		C7CE1EA627F428DD00608C07 /* zk的副本.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1EA527F428DD00608C07 /* zk的副本.html */; };
+		C7CE1EA627F428DD00608C07 /* intretech01.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1EA527F428DD00608C07 /* intretech01.html */; };
 		C7CE1EB527F42F3700608C07 /* WkWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1EB327F42F3700608C07 /* WkWebviewController.m */; };
+		C7F56FB8280BF8240085B3D4 /* BabyBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = C7F56FB7280BF8240085B3D4 /* BabyBluetooth */; };
 		F50654AFA5E8FC2638D8B26D /* libPods-submoduleTest-submoduleTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF339000EA01BF52D200F71 /* libPods-submoduleTest-submoduleTestUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -269,7 +270,7 @@
 		C7CE1E9627F4166300608C07 /* zk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zk.html; sourceTree = "<group>"; };
 		C7CE1E9727F4166400608C07 /* ldx+.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ldx+.html"; sourceTree = "<group>"; };
 		C7CE1E9827F4166400608C07 /* cpjs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cpjs.html; sourceTree = "<group>"; };
-		C7CE1EA527F428DD00608C07 /* zk的副本.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zk的副本.html"; sourceTree = "<group>"; };
+		C7CE1EA527F428DD00608C07 /* intretech01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intretech01.html; sourceTree = "<group>"; };
 		C7CE1EB327F42F3700608C07 /* WkWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkWebviewController.m; sourceTree = "<group>"; };
 		C7CE1EB427F42F3700608C07 /* WkWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkWebviewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -280,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C8E46F27EC5B0F0066E703 /* CocoaLumberjack.framework in Frameworks */,
+				C7F56FB8280BF8240085B3D4 /* BabyBluetooth in Frameworks */,
 				C7C8E46B27EC44D20066E703 /* libCocoaLumberjack.a in Frameworks */,
 				B3E14F7756D4BBDFF57C2F97 /* libPods-submoduleTest.a in Frameworks */,
 			);
@@ -557,7 +559,7 @@
 				C7CE1E9427F4166300608C07 /* huishang.html */,
 				C7CE1E9027F4166300608C07 /* ldn.html */,
 				C7CE1E9727F4166400608C07 /* ldx+.html */,
-				C7CE1EA527F428DD00608C07 /* zk的副本.html */,
+				C7CE1EA527F428DD00608C07 /* intretech01.html */,
 				C7CE1E8E27F4166300608C07 /* lzn.html */,
 				C7CE1E9127F4166300608C07 /* lzn+.html */,
 				C7CE1E9527F4166300608C07 /* pk.html */,
@@ -758,6 +760,7 @@
 			);
 			name = submoduleTest;
 			packageProductDependencies = (
+				C7F56FB7280BF8240085B3D4 /* BabyBluetooth */,
 			);
 			productName = submoduleTest;
 			productReference = C70955D127EC0D0F00D5A1DF /* submoduleTest.app */;
@@ -908,7 +911,7 @@
 				C772BC7527F0564B00B4A544 /* 04.jpg in Resources */,
 				C772BC7927F0564B00B4A544 /* new_feature_3@2x.png in Resources */,
 				C772BC7227F0564B00B4A544 /* 03.jpg in Resources */,
-				C7CE1EA627F428DD00608C07 /* zk的副本.html in Resources */,
+				C7CE1EA627F428DD00608C07 /* intretech01.html in Resources */,
 				C772BC6927F0564B00B4A544 /* leftmenu_topbg@2x.jpg in Resources */,
 				C772BC5727F0564B00B4A544 /* opening_long_1080*1920.mp4 in Resources */,
 				C7CE1E9B27F4166400608C07 /* djx.html in Resources */,
@@ -1423,6 +1426,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7F56FB7280BF8240085B3D4 /* BabyBluetooth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BabyBluetooth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C70955C927EC0D0F00D5A1DF /* Project object */;
 }

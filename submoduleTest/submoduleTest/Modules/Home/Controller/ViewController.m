@@ -11,6 +11,7 @@
 
 //@import CocoaLumberjack;
 //@import SPIndicator;
+//@import BabyBluetooth;
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *staticTextLab;
@@ -22,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self loadPlist];
-    
+//    BabyBluetooth * baby = BabyBluetooth.new;
     
     
     [DDLog addLogger:[DDOSLogger sharedInstance]];
@@ -51,7 +52,7 @@
 - (IBAction)twoBtnAction:(UIButton *)sender {
     self.staticTextLab.text = @"你点击了 2222 按钮";
     WkWebviewController *webVC=[[WkWebviewController alloc]init];
-    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"cpjs.html" withExtension:nil];
+    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"intretech01.html" withExtension:nil];
     webVC.fileURL = fileURL;
 //    webVC.boolNaviBarHeight=YES;
 //    webVC.hidesBottomBarWhenPushed=YES;
