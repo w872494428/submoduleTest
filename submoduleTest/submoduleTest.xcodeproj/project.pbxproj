@@ -273,7 +273,6 @@
 		C7CE1EA527F428DD00608C07 /* intretech01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intretech01.html; sourceTree = "<group>"; };
 		C7CE1EB327F42F3700608C07 /* WkWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkWebviewController.m; sourceTree = "<group>"; };
 		C7CE1EB427F42F3700608C07 /* WkWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkWebviewController.h; sourceTree = "<group>"; };
-		C7F56FBA280D0A810085B3D4 /* YQBlueTooth */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YQBlueTooth; path = ../LibPackage/YQBlueTooth; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,7 +323,6 @@
 		C70955C827EC0D0F00D5A1DF = {
 			isa = PBXGroup;
 			children = (
-				C7F56FB9280D0A810085B3D4 /* Packages */,
 				C70955D327EC0D0F00D5A1DF /* submoduleTest */,
 				C70955EF27EC0D1300D5A1DF /* submoduleTestTests */,
 				C70955F927EC0D1300D5A1DF /* submoduleTestUITests */,
@@ -727,14 +725,6 @@
 				C7CE1EB327F42F3700608C07 /* WkWebviewController.m */,
 			);
 			path = WkWebview;
-			sourceTree = "<group>";
-		};
-		C7F56FB9280D0A810085B3D4 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				C7F56FBA280D0A810085B3D4 /* YQBlueTooth */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 		D2555D4B7170F8A03A85139C /* Pods */ = {
