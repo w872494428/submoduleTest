@@ -10,3 +10,9 @@
 [submodule "ComPackage"]
 	path = ComPackage/JLRoutes
 	url = https://github.com/joeldev/JLRoutes
+[submodule "Packages/YQBlueTooth"]
+	path = Packages/YQBlueTooth
+	url = https://github.com/QMNY/YQBlueTooth
+[submodule "Packages/JLRoutes"]
+	path = Packages/JLRoutes
+	url = https://github.com/QMNY/JLRoutes
