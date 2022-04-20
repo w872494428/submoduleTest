@@ -16,3 +16,6 @@
 [submodule "Packages/JLRoutes"]
 	path = Packages/JLRoutes
 	url = https://github.com/QMNY/JLRoutes
+[submodule "Packages/YQJXPagerView"]
+	path = Packages/YQJXPagerView
+	url = https://github.com/QMNY/YQJXPagerView

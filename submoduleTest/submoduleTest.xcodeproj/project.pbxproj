@@ -88,6 +88,9 @@
 		C772BCBC27F05CCB00B4A544 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C772BCBA27F05CCB00B4A544 /* SAMKeychain.m */; };
 		C772BCC027F05DAC00B4A544 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C772BCBE27F05DAC00B4A544 /* UIColor+Hex.m */; };
 		C772BCC327F05DEA00B4A544 /* UIFont+ScaleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C772BCC127F05DEA00B4A544 /* UIFont+ScaleFont.m */; };
+		C78F8326281034470062A99F /* BabyBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = C78F8325281034470062A99F /* BabyBluetooth */; };
+		C78F83282810344A0062A99F /* JLRoutes in Frameworks */ = {isa = PBXBuildFile; productRef = C78F83272810344A0062A99F /* JLRoutes */; };
+		C7BCD86028103F79003530F7 /* JXPagerView in Frameworks */ = {isa = PBXBuildFile; productRef = C7BCD85F28103F79003530F7 /* JXPagerView */; };
 		C7C8E46827EC44C40066E703 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C7C8E46B27EC44D20066E703 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */; };
 		C7C8E46F27EC5B0F0066E703 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C8E46E27EC5B0F0066E703 /* CocoaLumberjack.framework */; };
@@ -105,7 +108,6 @@
 		C7CE1EA427F4166400608C07 /* cpjs.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1E9827F4166400608C07 /* cpjs.html */; };
 		C7CE1EA627F428DD00608C07 /* intretech01.html in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1EA527F428DD00608C07 /* intretech01.html */; };
 		C7CE1EB527F42F3700608C07 /* WkWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1EB327F42F3700608C07 /* WkWebviewController.m */; };
-		C7F56FB8280BF8240085B3D4 /* BabyBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = C7F56FB7280BF8240085B3D4 /* BabyBluetooth */; };
 		F50654AFA5E8FC2638D8B26D /* libPods-submoduleTest-submoduleTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF339000EA01BF52D200F71 /* libPods-submoduleTest-submoduleTestUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -253,8 +255,9 @@
 		C772BCBF27F05DAC00B4A544 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		C772BCC127F05DEA00B4A544 /* UIFont+ScaleFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ScaleFont.m"; sourceTree = "<group>"; };
 		C772BCC227F05DEA00B4A544 /* UIFont+ScaleFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ScaleFont.h"; sourceTree = "<group>"; };
-		C78F8321281030580062A99F /* JLRoutes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JLRoutes; path = ../Packages/JLRoutes; sourceTree = "<group>"; };
-		C78F83222810306C0062A99F /* YQBlueTooth */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YQBlueTooth; path = ../Packages/YQBlueTooth; sourceTree = "<group>"; };
+		C78F8323281033B90062A99F /* BabyBluetooth */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BabyBluetooth; path = ../../RemotePackages/YQBlueTooth/BabyBluetooth; sourceTree = "<group>"; };
+		C78F8324281034290062A99F /* JLRoutes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = JLRoutes; path = ../Packages/JLRoutes/JLRoutes; sourceTree = "<group>"; };
+		C7BCD85E28103F6D003530F7 /* JXPagerView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = JXPagerView; path = ../Packages/YQJXPagerView/JXPagerView; sourceTree = "<group>"; };
 		C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C8E46C27EC5B070066E703 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -283,8 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C8E46F27EC5B0F0066E703 /* CocoaLumberjack.framework in Frameworks */,
-				C7F56FB8280BF8240085B3D4 /* BabyBluetooth in Frameworks */,
+				C7BCD86028103F79003530F7 /* JXPagerView in Frameworks */,
+				C78F8326281034470062A99F /* BabyBluetooth in Frameworks */,
 				C7C8E46B27EC44D20066E703 /* libCocoaLumberjack.a in Frameworks */,
+				C78F83282810344A0062A99F /* JLRoutes in Frameworks */,
 				B3E14F7756D4BBDFF57C2F97 /* libPods-submoduleTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,8 +721,9 @@
 		C78F8320281030580062A99F /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				C78F8321281030580062A99F /* JLRoutes */,
-				C78F83222810306C0062A99F /* YQBlueTooth */,
+				C78F8323281033B90062A99F /* BabyBluetooth */,
+				C78F8324281034290062A99F /* JLRoutes */,
+				C7BCD85E28103F6D003530F7 /* JXPagerView */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -772,7 +778,9 @@
 			);
 			name = submoduleTest;
 			packageProductDependencies = (
-				C7F56FB7280BF8240085B3D4 /* BabyBluetooth */,
+				C78F8325281034470062A99F /* BabyBluetooth */,
+				C78F83272810344A0062A99F /* JLRoutes */,
+				C7BCD85F28103F79003530F7 /* JXPagerView */,
 			);
 			productName = submoduleTest;
 			productReference = C70955D127EC0D0F00D5A1DF /* submoduleTest.app */;
@@ -1440,9 +1448,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C7F56FB7280BF8240085B3D4 /* BabyBluetooth */ = {
+		C78F8325281034470062A99F /* BabyBluetooth */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BabyBluetooth;
+		};
+		C78F83272810344A0062A99F /* JLRoutes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JLRoutes;
+		};
+		C7BCD85F28103F79003530F7 /* JXPagerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JXPagerView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

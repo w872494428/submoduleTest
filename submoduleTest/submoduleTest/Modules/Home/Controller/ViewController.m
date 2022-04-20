@@ -12,9 +12,14 @@
 //@import CocoaLumberjack;
 //@import SPIndicator;
 //@import BabyBluetooth;
+@import JXPagerView;
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *staticTextLab;
+@property (nonatomic, strong) JXPagerView *pagingView;
+@property (nonatomic, strong) JXPagerMainTableView * jxTableView;
+//@property (strong, nonatomic) JXCategoryTitleView *categoryView;
+
 @end
 
 @implementation ViewController
