@@ -253,6 +253,8 @@
 		C772BCBF27F05DAC00B4A544 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		C772BCC127F05DEA00B4A544 /* UIFont+ScaleFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ScaleFont.m"; sourceTree = "<group>"; };
 		C772BCC227F05DEA00B4A544 /* UIFont+ScaleFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ScaleFont.h"; sourceTree = "<group>"; };
+		C78F8321281030580062A99F /* JLRoutes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JLRoutes; path = ../Packages/JLRoutes; sourceTree = "<group>"; };
+		C78F83222810306C0062A99F /* YQBlueTooth */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YQBlueTooth; path = ../Packages/YQBlueTooth; sourceTree = "<group>"; };
 		C7C8E46627EC44C40066E703 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C8E46A27EC44D20066E703 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C8E46C27EC5B070066E703 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,6 +325,7 @@
 		C70955C827EC0D0F00D5A1DF = {
 			isa = PBXGroup;
 			children = (
+				C78F8320281030580062A99F /* Packages */,
 				C70955D327EC0D0F00D5A1DF /* submoduleTest */,
 				C70955EF27EC0D1300D5A1DF /* submoduleTestTests */,
 				C70955F927EC0D1300D5A1DF /* submoduleTestUITests */,
@@ -708,6 +711,15 @@
 				C772BCC127F05DEA00B4A544 /* UIFont+ScaleFont.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		C78F8320281030580062A99F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C78F8321281030580062A99F /* JLRoutes */,
+				C78F83222810306C0062A99F /* YQBlueTooth */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 		C7CE1EA727F42C0F00608C07 /* Other */ = {
