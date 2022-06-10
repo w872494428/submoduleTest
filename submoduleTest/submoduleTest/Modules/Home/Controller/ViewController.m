@@ -7,8 +7,11 @@
 
 #import "ViewController.h"
 #import "WkWebviewController.h"
+#import <objc/runtime.h>
+#import <objc/message.h>
 //#import <CocoaLumberjack/CocoaLumberjack.h>
-
+#import "ComBtnWedget.h"
+#import "RobotMapViewManager.h"
 //@import CocoaLumberjack;
 //@import SPIndicator;
 //@import BabyBluetooth;
@@ -43,9 +46,19 @@
     DDLogWarn(@"警告"); // 橙色
     DDLogVerbose(@"详细信息"); // 默认是黑色
     
+    
 //    //获取log文件夹路径
 //    NSString *logDirectory = [fileLogger.logFileManager logsDirectory];
 //    DDLogDebug(@"%@", logDirectory);
+    
+    UIButton * tnBn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [self.view addSubview:tnBn];
+    
+    [ComBtnWedget setBackImageName:@"libComBtnWedget"];
+    
+    [[RobotMapViewTool sharedInstance] creatMapview];
+    [[RobotMapViewTool sharedInstance] removeMapview];
+    [[RobotMapViewTool sharedInstance] hidden];
 }
 
 #pragma mark - button action
